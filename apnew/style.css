@@ -444,7 +444,7 @@ header .menu-btn {
 .service-area .col-md-4:nth-child(3) {margin-top: -200px}
 .single-item:hover .single-item-icon {background-color: #2d3e50}
 /*--------------------------------------------*/
-/*  6. Features Area
+/*  6. Features Area 1
 /*--------------------------------------------*/
 .features-area {
     background: url("img/banner/preview.png") ;
@@ -462,7 +462,7 @@ header .menu-btn {
 }
 .features-area .single-item-icon {float: left; margin-right: 38px}
 .features-area .single-item-text {
-    display: block;
+    display: inline;
     overflow: hidden;
     width: 408px;
 }
@@ -474,6 +474,39 @@ header .menu-btn {
     margin-left: 84px
 }
 .features-area .single-item:nth-child(3) {margin-left: 121px}
+
+/*--------------------------------------------*/
+/*  6. Features Area 2
+/*--------------------------------------------*/
+.features-area2 {
+    background: url("img/banner/preview.png") ;
+    margin-top: -112px;
+    padding-top: 35px;
+	background-size:63% auto;
+	background-position:-11% 67%;
+	background-repeat:no-repeat;	
+}
+.features-area2 .single-item-text p {margin-bottom: 0}
+.features-area2 .single-item {
+    margin-bottom: 96px;
+    position: relative;
+    z-index: 99;
+}
+.features-area2 .single-item-icon {float: right; margin-right: 38px; }
+.features-area2 .single-item-text {
+    
+    overflow: hidden;
+    width: 408px;
+}
+.features-area2 .single-item-text h4 {line-height: 21px; margin-bottom: 11px}
+.features-area2 .single-item:first-child, .features-area .single-item:last-child {
+    margin-right: -100px
+}
+.features-area2 .single-item:nth-child(2), .features-area .single-item:nth-child(4) {
+    margin-right: 84px
+}
+.features-area2 .single-item:nth-child(3) {margin-right: 121px}
+
 /*--------------------------------------------*/
 /*  7. Download Area
 /*--------------------------------------------*/
