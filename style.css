@@ -511,7 +511,7 @@ header .menu-btn {
 /*  7. Download Area
 /*--------------------------------------------*/
 .download-area, .domain-name-area {
-    background: url("img/banner/3.jpg");
+    background: url("img/conversation.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -550,8 +550,19 @@ header .menu-btn {
     -ms-transform: rotate(180deg);
     transform: rotate(180deg)
 }
-.download-bg, .footer-bg {
-    background: rgba(45, 62, 80, 0.85) none repeat scroll 0 0;
+.download-bg {
+    background: rgba(45, 62, 80, 0.7) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer-bg {
+    background: rgba(45, 62, 80, 0.9) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -842,7 +853,7 @@ header .menu-btn {
 /*  11. Footer Area
 /*--------------------------------------------*/
 .footer-area {
-    background-image: url("img/banner/4.jpg");
+    background-image: url("img/meeting.jpeg");
 	background-size:cover;
 	background-position:center top;
 	background-repeat:no-repeat;
