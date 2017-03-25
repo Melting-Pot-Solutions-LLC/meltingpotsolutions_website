@@ -511,7 +511,7 @@ header .menu-btn {
 /*  7. Download Area
 /*--------------------------------------------*/
 .download-area, .domain-name-area {
-    background: url("img/conversation.png");
+    background: url("img/conversation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -853,7 +853,7 @@ header .menu-btn {
 /*  11. Footer Area
 /*--------------------------------------------*/
 .footer-area {
-    background-image: url("img/meeting.jpeg");
+    background-image: url("img/meeting.jpg");
 	background-size:cover;
 	background-position:center top;
 	background-repeat:no-repeat;
