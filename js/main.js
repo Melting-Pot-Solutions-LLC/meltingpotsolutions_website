@@ -109,5 +109,43 @@
         currentClass: 'active',
         scrollOffset: top_offset,
     });
+
+/*--------------------------------
+	Changing background images in the banenr
+-----------------------------------*/
+
+
+        // var opacity = 0.0;
+        // if (step == 5)
+        // {
+        //     n = 5;
+        //     step = 1;
+        //     opacity = 1.0;
+        //     $("#banner").animate({'opacity':opacity},2000);     
+        //     $("#item_"+n).animate({'opacity': 0.0},2000);
+        //     return;     
+        // }
+        // var n = step+1;
+        // $("#item_"+step).animate({'opacity':opacity},2000);
+        // $("#item_"+n).animate({'opacity':1.0},2000);
+        // step = n;
+
+        // step = step + 1;
+        // if(step%2)
+        // {
+        //     $("#banner").animate({'opacity':0.0},1000);  
+        //     $(".banner-area").css('background', "linear-gradient( rgba(45, 62, 80,  0.8), rgba(45, 62, 80, 0.8) ), url(img/banner-photo2.jpeg)"); 
+        //     $("#banner").animate({'opacity':1.0},1000);  
+        // }
+        // else
+        // {
+        //     $("#banner").animate({'opacity':0.0},1000);  
+        //  $(".banner-area").css('background', "linear-gradient( rgba(45, 62, 80,  0.8), rgba(45, 62, 80, 0.8) ), url(img/banner-photo3.jpeg)");  
+        //  $("#banner").animate({'opacity':1.0},1000);  
+
+
  
 })(jQuery); 
+
+
+
