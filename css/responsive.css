@@ -101,21 +101,21 @@
     .features-area .single-item:nth-child(3) {margin-left: 149px}
     .features-area .single-item {margin-bottom: 55px}
     .features-area {
-        background: url("../img/banner/preview.png");
+        background: url("../img/preview.jpg");
         background-repeat: no-repeat;
         background-position: -11% 64%;
         background-size: 53% auto;
         margin-top: -145px;
     }    
     .features-area.features-yellow {
-        background: url("../img/banner-yellow/preview.png");
+        background: url("../img/preview.jpg");
         background-repeat: no-repeat;
         background-position: -11% 64%;
         background-size: 53% auto;
         margin-top: -145px;
     }    
     .features-area.features-blue {
-        background: url("../img/banner-blue/preview.png");
+        background: url("../img/preview.jpg");
         background-repeat: no-repeat;
         background-position: -11% 64%;
         background-size: 53% auto;
