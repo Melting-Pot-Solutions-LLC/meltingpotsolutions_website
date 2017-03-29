@@ -148,15 +148,13 @@
         $("#yourButtonId2").click
         (function()
         {
-            console.log("button pressed");
-            emailjs.send("default_service","template_dYMGng2i",{name: "James", notes: "Check this out!"})
-            // parameters: service_id, template_id, template_parameters
-            // emailjs.send("dml1002313@gmail.com","template_dYMGng2i",{name: "James", notes: "Check this out!"})
-            // .then(function(response) {
-            // console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-            // }, function(err) {
-            // console.log("FAILED. error=", err);
-            // });
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var message = $('#message').val();
+            // console.log(name + email + message);
+            // console.log("button pressed");
+            emailjs.send("default_service","template_dYMGng2i",{from_name: name, email: email, message: message});
+
         }
         );
  

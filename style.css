@@ -273,7 +273,7 @@ header .menu-btn {
     
     /*background: rgba(45, 62, 80, 0.9) none repeat scroll 0 0;*/
     /*background: url(img/conversation.jpg);*/
-    background: linear-gradient( rgba(45, 62, 80,  0.8), rgba(45, 62, 80, 0.8) ) ;
+    background:  linear-gradient( rgba(45, 62, 80,  0.8), rgba(45, 62, 80, 0.8) ), url(img/banner-photo2.jpg) ;
 /**/
     background-position: center top;
     background-repeat: no-repeat;
