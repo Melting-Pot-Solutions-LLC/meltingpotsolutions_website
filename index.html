@@ -135,6 +135,7 @@
                             <!-- Start WOWSlider.com BODY section -->
 
         <div class="banner-area" id="banner">
+            <div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(45, 62, 80, 0.8);"></div>
 
     <div class="container" style="z-index: 100">
                 <div class="row">
@@ -146,7 +147,7 @@
 
                                 <div class="banner-buttons">
                                     <!--<button type="button" class="button-default button-olive">See our latest work</button>-->
-                                    <a href="#" class="button-default button-white">ask for a quote</a>
+                                    <a href="#support" class="button-default button-white">ask for a quote</a>
                                 </div>
                             </div>
                         </div>
@@ -811,6 +812,7 @@ but the majorityhave alteration in some form, by injected humour,available</p>
 		<!-- jquery
 		============================================ -->		
         <script src="js/vendor/jquery-1.12.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         
 		<!-- bootstrap JS
 		============================================ -->		
@@ -849,6 +851,18 @@ but the majorityhave alteration in some form, by injected humour,available</p>
 		<!-- main JS
 		============================================ -->		
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+        <script>        
+                $(".banner-area").backstretch([
+            "img/banner-photo1.jpg",
+            "img/banner-photo2.jpg",
+            "img/banner-photo3.jpg",
+            "img/banner-photo4.jpg",
+            "img/banner-photo5.jpg",
+            "img/banner-photo6.jpg"
+          ],{duration: 4000, fade: 1000});
+ 
+        </script>
 
     </body>
 </html>
