@@ -144,6 +144,9 @@
         //  $("#banner").animate({'opacity':1.0},1000);  
 
 
+        var random_number = Math.floor(Math.random() * 5);     // returns a number between 0 and 9
+        $(".banner-area").css("background", " linear-gradient( rgba(45, 62, 80,  0.8), rgba(45, 62, 80, 0.8) ), url(img/banner-photo" + (random_number+1)+ ".jpg)");
+
 
         $("#yourButtonId2").click
         (function()
