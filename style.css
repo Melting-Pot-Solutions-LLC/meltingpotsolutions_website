@@ -36,6 +36,11 @@
 
 -----------------------------------------------------------------------------------*/
 
+:root {
+  --main-color: #001C88;
+}
+
+
 /*----------------------------------------*/
 /*  1. Theme default CSS
 /*----------------------------------------*/
@@ -94,7 +99,8 @@ ul{
     text-shadow: none;
 }
 ::selection {
-    background: #b3d4fc;
+    background: #ffffff;
+    /*background: #b3d4fc;*/
     text-shadow: none;
 }
 ::-webkit-input-placeholder {opacity: 1 !important;filter:alpha(opacity=100)}
@@ -273,7 +279,8 @@ header .menu-btn {
     
     /*background: rgba(45, 62, 80, 0.9) none repeat scroll 0 0;*/
     /*background: url(img/conversation.jpg);*/
-    background:  linear-gradient( rgba(45, 62, 80,  0.8), rgba(45, 62, 80, 0.8) ) ;
+    /*var(--main-color)*/
+    /*background:  linear-gradient( rgba(0, 20, 136, 1), rgba(0, 20, 136, 1) ) ;*/
 /**/
     background-position: center top;
     background-repeat: no-repeat;
@@ -1422,3 +1429,4 @@ textarea.form-control {
     border: 1px solid #2D3E50
 }
 #scrollUp:hover {background-color: #fff; color: #2D3E50}
+
