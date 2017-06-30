@@ -157,7 +157,10 @@
             var message = $('#message').val();
             // console.log(name + email + message);
             // console.log("button pressed");
-            emailjs.send("default_service","template_dYMGng2i",{from_name: name, email: email, message: message});
+            emailjs.send("default_service","template_dYMGng2i2",{from_name: name, email: email, message: message});
+            $("#email_sent").toggleClass("hidden");
+            $("#email_form").toggleClass("hidden");
+            $("#email_sent").fadeOut(5000);
 
         }
         );
